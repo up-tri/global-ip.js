@@ -1,0 +1,26 @@
+{
+  "name": "global-ip",
+  "version": "1.0.0",
+  "author": "up-tri <yaki-shake@up-tri.me>",
+  "homepage": "https://github.com/up-tri/global-ip.js",
+  "main": "src/index.js",
+  "typings": "src/index.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/up-tri/global-ip.js.git"
+  },
+  "scripts": {
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
